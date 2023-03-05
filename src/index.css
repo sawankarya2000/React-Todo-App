@@ -125,6 +125,14 @@ body{
 .task--name{
   max-width: 500px;
   word-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.task--name:hover{
+  white-space: normal;
+  overflow: visible;
 }
 
 .task-right{
